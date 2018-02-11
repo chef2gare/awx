@@ -1,3 +1,6 @@
 ---
+- name: themoreyouknow
+  debug: var={{ hostvars['localhost'] }}
+
 - name: run message
   debug: msg="{{ message }}"
