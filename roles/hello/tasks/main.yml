@@ -1,6 +1,6 @@
 ---
 - name: themoreyouknow
-  debug: var={{ hostvars['localhost'] }}
+  debug: var={{ hostvars }}
 
 - name: run message
   debug: msg="{{ message }}"
